@@ -1,5 +1,8 @@
 Revision history for POE-Component-IRC-Plugin-CoinFlip
 
+0.0102  July 2, 2009
+        Added an example bot
+
 0.0101  October 26, 2008
         First version, released on an unsuspecting world.
 

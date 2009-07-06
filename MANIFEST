@@ -6,5 +6,6 @@ lib/POE/Component/IRC/Plugin/CoinFlip.pm
 t/00-load.t
 t/pod-coverage.t
 t/pod.t
+examples/bot.pl
 Makefile.PL
 META.yml
