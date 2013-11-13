@@ -1,22 +1,26 @@
 ---
-name: POE-Component-IRC-Plugin-CoinFlip
-version: 0.0102
+abstract: 'flip coins on IRC.'
 author:
   - "Zoffix <'zoffix@cpan.org'>"
-abstract: flip coins on IRC.
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  POE: 0.9999
-  POE::Component::IRC::Plugin::BaseWrap: 0.008
 build_requires:
   Test::More: 0
-provides:
-  POE::Component::IRC::Plugin::CoinFlip:
-    file: lib/POE/Component/IRC/Plugin/CoinFlip.pm
-    version: 0.0102
-generated_by: Module::Build version 0.33
+configure_requires:
+  Module::Build: 0
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+name: POE-Component-IRC-Plugin-CoinFlip
+provides:
+  POE::Component::IRC::Plugin::CoinFlip:
+    file: lib/POE/Component/IRC/Plugin/CoinFlip.pm
+    version: 0.0103
+requires:
+  POE: 0.9999
+  POE::Component::IRC::Plugin::BaseWrap: 0.008
+  perl: 5.006
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.0103

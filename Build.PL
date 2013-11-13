@@ -13,7 +13,9 @@ my $builder = Module::Build->new(
     requires => {
         'POE'                                   => 0.9999,
         'POE::Component::IRC::Plugin::BaseWrap' => 0.008,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'POE-Component-IRC-Plugin-CoinFlip-*' ],
     create_makefile_pl => 'traditional',
 );

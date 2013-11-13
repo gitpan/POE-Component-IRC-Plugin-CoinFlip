@@ -3,7 +3,7 @@ package POE::Component::IRC::Plugin::CoinFlip;
 use warnings;
 use strict;
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 use POE;
 use base 'POE::Component::IRC::Plugin::BaseWrap';
@@ -25,6 +25,8 @@ sub _message_into_response_event { 'flip' }
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
